@@ -4,7 +4,7 @@ import createReducer from '../lib/helpers/createReducer';
 import { TITLE_SET } from '../lib/constants/actions';
 
 
-const defaultState = Map().set('title', 'title from default state');
+const defaultState = Map().set('title', 'Valet Buddy Initial State');
 
 export default createReducer(defaultState, {
 
